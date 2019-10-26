@@ -1,5 +1,8 @@
 # Harsh Bardhan Mishra 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/83250a1a417d46b79b5460e4b73a504c)](https://www.codacy.com/manual/HarshCasper/HarshCasper.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=HarshCasper/HarshCasper.github.io&amp;utm_campaign=Badge_Grade)
+[![BCH compliance](https://bettercodehub.com/edge/badge/HarshCasper/HarshCasper.github.io?branch=master)](https://bettercodehub.com/)
+
 ## Who am I? 
 
 I'm an Indian Undergraduate Student currently undertaking a Bachelors in Computer Science and Engineering from Sathyabama 
