@@ -1,0 +1,266 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #EFEEEE;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #222222;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  letter-spacing: 0.4;
+  height: 40px;
+  margin-top: 32px;
+  font-weight: 300;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  letter-spacing: -1.5;
+  font-size: 96px;
+  font-weight: 300;
+}
+
+h3 {
+  border-bottom: 4px solid #EFEEEE;
+  letter-spacing: 0;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+
+h3:hover {
+  border-bottom: 4px solid #ff8535;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.15;
+}
+
+nav {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px;
+  flex-wrap: wrap;
+}
+
+p {
+  letter-spacing: 0.5;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin: 8px 0 8px 0;
+}
+
+strong {
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  ul {
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 56px;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .card {
+    flex-basis: 100%!important;
+  }
+
+  .card-port {
+    flex-basis: 100%!important;
+  }
+
+  .card-mini {
+    flex-basis: 100%!important;
+  }
+
+  nav {
+    margin-bottom: 64px;
+  }
+}
+
+.button {
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 16px;
+}
+
+.button:hover {
+  color: #ff8535;
+  background: #EFEEEE;
+  box-shadow:
+    inset -6px -6px 26px rgba(255, 255, 255 ,0.83),
+    inset 6px 6px 16px rgba(217, 210, 200, 0.51);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards-port {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: between;
+}
+
+.card {
+  flex: 0 1 90%;
+  border-radius: 5px;
+  background: #EFEEEE;
+  box-shadow:
+    -6px -6px 26px rgba(255, 255, 255 ,0.83),
+    6px 6px 16px rgba(217, 210, 200, 0.51);
+  padding: 10px;
+  min-height: 150px;
+  margin: 10px;
+}
+
+.card-mini {
+  flex: 0 1 40%;
+  border-radius: 5px;
+  background: #EFEEEE;
+  box-shadow:
+    -6px -6px 26px rgba(255, 255, 255 ,0.83),
+    6px 6px 16px rgba(217, 210, 200, 0.51);
+  padding: 10px;
+  min-height: 150px;
+  margin: 10px;
+}
+
+.card-port {
+  flex: 0 1 40%;
+  border-radius: 5px;
+  background: #EFEEEE;
+  box-shadow:
+    -6px -6px 26px rgba(255, 255, 255 ,0.83),
+    6px 6px 16px rgba(217, 210, 200, 0.51);
+  padding: 10px;
+  min-height: 100px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.input {
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.nav-link {
+  display: flex;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  border-radius: 5px;
+  background: #EFEEEE;
+  color: #ff8535;
+  box-shadow:
+    inset -6px -6px 26px rgba(255, 255, 255 ,0.83),
+    inset 6px 6px 16px rgba(217, 210, 200, 0.51);
+}
+
+.neu {
+  border-radius: 5px;
+  background: #EFEEEE;
+  box-shadow:
+    -6px -6px 26px rgba(255, 255, 255 ,0.83),
+    6px 6px 16px rgba(217, 210, 200, 0.51);
+}
+
+.neu-inset:hover {
+  background: #EFEEEE;
+  box-shadow:
+    inset -6px -6px 26px rgba(255, 255, 255 ,0.83),
+    inset 6px 6px 16px rgba(217, 210, 200, 0.51);
+}
+
+.header {
+  padding: 20px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  margin: 12px;
+}
+
+.image {
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.content {
+  padding: 8px;
+  margin: 16px;
+  flex-wrap: nowrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-container {
+  flex: 1;
+}
+.content-container {
+  flex: 2;
+}
+
+.repo {
+  color: #ff8535;
+}
